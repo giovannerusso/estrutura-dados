@@ -33,9 +33,9 @@ public class Stack {
 
     @Override
     public String toString() {
-        String returnString = " ------------\n";
-        returnString += "     Stack\n";
-        returnString += " ------------\n";
+        String returnString = " -------------\n";
+        returnString += "      Stack\n";
+        returnString += " -------------\n";
 
         Node auxNode = refNodeEntryStack;
 
@@ -48,7 +48,7 @@ public class Stack {
                 break;
             }
         }
-        returnString += " ============\n";
+        returnString += " =============\n";
         return returnString;
     }
 
